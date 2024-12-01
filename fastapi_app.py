@@ -95,7 +95,7 @@ vector_store.load_data_from_mongodb()
 huggingface_api_token = os.getenv("HF_TOKEN")
 # Load the Hugging Face model for Mistral-7B text generation
 llm = HuggingFaceEndpoint(
-    repo_id="meta-llama/Meta-Llama-3-8B"
+    repo_id="meta-llama/Llama-3.1-8B-Instruct"
 )
 
 # Prompt template for legal QA
